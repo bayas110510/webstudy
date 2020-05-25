@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+/* 头部导航栏 start */
+#header{
+    width: 100%;
+    height: 40px;
+    border-bottom:1px solid #cccccc ;
+    /* background: pink; */
+}
+.head{
+     width: 1200px;
+     height: 40px;
+     /* background: slategray; */
+     margin: 0 auto;
+}
+.head a{
+    color:#8492A6;
+    font-size:14px;
+}
+.hd_left{
+    width: 270px;
+    float: left;
+    /* background: red; */
+}
+.hd_right{
+    float: right;
+    line-height: 40px;
+    /* width: 200px; */
+}
+/* 设置头部内容样式 */
+.hd_left>div{
+    float: left;
+    line-height: 40px;
+    color: #8492a6;
+}
+.hd_left>div:last-child{
+    /* padding: 8px 10px 8px 0; */
+    float: right;
+}
+.hd_left>div:last-child>a, 
+.hd_left>div:last-child>a>img{
+    float: left;
+}
+.hd_left>div:last-child>a>img{
+    width: 18px;
+    margin-top: 15px ;
+    margin-right: 5px ;
+}
+.hd_right>ul{
+    float:right;
+    height: 40px;
+    line-height: 40px;
+}
+.hd_right>ul>li,
+.hd_right>ul>li>a,
+.hd_right>ul>li>a>img{
+    float:left;
+}
+.hd_right>ul>li{
+    padding:0 5px;
+}
+.hd_right>ul>li>a>img{
+    width: 18px;
+    margin-top: 10px;
+}
+/* 头部导航栏end */
+
+/* logo start */
+#logo{
+    width: 1200px;
+    height: 100px;
+    background: pink;
+    margin: 5px auto;
+}
+.logo_left{
+    width: 220px;
+    float: left;
+    /* background: skyblue; */
+    margin-top: 10px;
+}
+.logo_left img{
+    width: 220px;
+    height: 80px;
+}
+.logo_right{
+    /* width: 220px; */
+    /* height: 80px; */
+    float: right;
+    /* background: skyblue; */
+}
+.logo_right img{ 
+    width: 330px;
+    height: 28px;
+    margin-top: 40px;
+}
+
+/* logo end */

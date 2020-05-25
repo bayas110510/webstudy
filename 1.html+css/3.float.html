@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浮动属性</title>
+    <style>
+        #box{
+            /* width: 600px; */
+            /* height: 600px; */
+            background: deeppink;
+            /* 在不设置宽高的情况之下,父类可以感知子类的高度 */
+            overflow: hidden;
+        }
+        #box>div:first-child{
+            width: 200px;
+            height: 200px;
+            background: green;
+            /* 左浮动 */
+            float: right;
+        }
+        #box>div:nth-child(2){
+            width: 200px;
+            height: 200px;
+            background: aqua;
+            float: right;
+        }
+        #box>div:last-child{
+            width: 200px;
+            height: 200px; 
+            background: red;
+            float: right;
+        }
+        /* span{
+            background: pink;
+            width: 200px;
+            height: 200px ;
+            float: left;
+            border: 1px solid #000000;
+        } */
+    </style>    
+</head>
+<body>
+    <div id="box">
+        <div>div1</div>
+        <div>div2</div>
+        <div>div3</div>
+    </div>
+    <!-- span行内元素:没有宽高属性 并且不会独占一行-->
+    <!-- <span>bayas</span>
+    <span>tunnl</span> -->
+</body>
+</html>

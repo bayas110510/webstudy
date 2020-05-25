@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>padding</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        span{
+            border: 1px solid #000000;
+            padding: 10px;
+            float: left;
+        }
+        #bayas{
+            background: pink;
+            width: 200px;
+            height: 200px;
+            clear: both;  /* 清除浮动*/
+            border: 5px solid #000000;
+            padding: 20px;
+            /* box-sizing是设置怪异盒 */
+            box-sizing: border-box;
+        }
+        #tunnl{
+            background: skyblue;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <span>我爱大前端</span>
+    <div id="bayas">bayas <p>因为加了border和padding值 盒子的大小也发生了改变</p></div>
+    <div id="tunnl">tunnl <p>width200px height200px</p></div>
+</body>
+</html>

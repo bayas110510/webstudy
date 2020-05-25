@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div,span{
+            width: 200px;
+            height: 200px;
+        }
+        div{
+            background: pink;
+            /* 设置为行内元素 */
+            /* display: inline; */
+            
+            /* 设置元素为 行内块元素  布局的时候很少用 */
+            /*  inline-block 行内块元素 有宽高属性 又不占一行 */
+            /* display: inline-block; */
+
+            /* 隐藏元素 */
+            /* display: none; */
+
+            /* 隐藏元素  占据原来的物理位置 */
+            /* visibility: hidden; */
+
+            /* 设置透明度 */
+            /* opacity: 1; */
+
+        }
+        span{
+            background: skyblue;
+            /* 设置为块状元素 */
+            /* display: inline-block; */
+        }
+    </style>
+</head>
+<body>
+    <!-- div: 块级元素: 具有宽高属性 并且独占一行-->
+    <div>这是块状元素</div>
+    <!-- <div>这是块状元素</div>
+    <div>这是块状元素</div>
+    <div>这是块状元素</div>
+    <div>这是块状元素</div>
+    <div>这是块状元素</div>
+    <div>这是块状元素</div> -->
+
+    <!-- span: 行内元素 没有宽高属性 不会独占一行-->
+    <span>这是行内元素</span>
+</body>
+</html>
